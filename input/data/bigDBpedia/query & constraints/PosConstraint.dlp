@@ -1,0 +1,7 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% positive constraint
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Artwork(X) :- Author(X,Y).
+Artist(X) :- Author(Y,X).

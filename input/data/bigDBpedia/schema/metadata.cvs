@@ -1,0 +1,10 @@
+table,path
+author,/data/author/
+birthplace,/data/birthplace/
+country,/data/country/
+exhibit,/data/exhibit/
+location,/data/location/
+artist,/data/artist/
+artwork,/data/artwork/
+politician,/data/politician/
+scientist,/data/scientist/

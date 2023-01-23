@@ -1,0 +1,3 @@
+?(Xa, Xw, Xm, Xville, Xpays) :- artist(Xa), museum(Xm), artwork(Xw), 
+								author(Xw, Xa), birthplace(Xa, Xplace), country(Xplace, Xpays), 
+								exhibit(Xw, Xm), location(Xm, Xville), country(Xville, Xpays).

@@ -1,0 +1,10 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% key constraints
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% oeuvre à 1 auteur
+equal(Xp, Yp) :- author(Xw, Xa) , author(Yw, Xa).
+
+% exposee dans 1 seul musee
+equal(Xm, Ym) :- exhibit(Xa, Xm), exhibit(Xa, Ym).

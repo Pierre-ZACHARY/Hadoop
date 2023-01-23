@@ -1,0 +1,8 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% negative constraints
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+! :- Artist(X), Scientist(X).
+! :- Artist(X), Politician(X).
+
