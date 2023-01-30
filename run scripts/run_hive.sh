@@ -1,0 +1,1 @@
+docker exec -it namenode /bin/bash -c "bash /root/hive/bin/hive"
