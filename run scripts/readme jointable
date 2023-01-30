@@ -1,0 +1,31 @@
+
+Pour lancer le jar :
+hadoop jar /target/Example-1.0-SNAPSHOT.jar JoinTable /user/root/s /user/root/r /user/root/output/jointable
+(remplacer /user/root par votre chemin sur votre hdfs)
+
+Example de résultat :
+10      r-10-0 s-10-1
+10      r-10-0 s-10-0
+11      r-11-0 s-11-0
+31      r-31-0 s-31-0
+31      r-31-0 s-31-3
+31      r-31-0 s-31-2
+31      r-31-0 s-31-1
+31      r-31-3 s-31-0
+31      r-31-3 s-31-3
+31      r-31-3 s-31-2
+31      r-31-3 s-31-1
+31      r-31-2 s-31-0
+31      r-31-2 s-31-3
+31      r-31-2 s-31-2
+31      r-31-2 s-31-1
+31      r-31-1 s-31-0
+31      r-31-1 s-31-3
+31      r-31-1 s-31-2
+31      r-31-1 s-31-1
+61      r-61-0 s-61-0
+61      r-61-0 s-61-1
+61      r-61-1 s-61-0
+61      r-61-1 s-61-1
+71      r-71-0 s-71-0
+

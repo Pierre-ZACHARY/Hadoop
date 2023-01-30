@@ -15,6 +15,5 @@ docker exec -it namenode /bin/bash -c "hdfs dfs -put -f /input/data/join_input/o
 
 docker exec -it namenode /bin/bash -c "hadoop jar /target/Example-1.0-SNAPSHOT.jar JoinTable /user/root/s /user/root/r /user/root/output/jointable"
 
-
 # cat the file at /user/root/output/jointable/part-r-00000
 docker exec -it namenode /bin/bash -c "hdfs dfs -cat /user/root/output/jointable/part-r-00000"
